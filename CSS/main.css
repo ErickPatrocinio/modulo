@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: blueviolet;
+    padding: 16px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    color: black;
+}
+
+.container {
+    width: 1310px;
+    margin: 0 auto 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: white;
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 22px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: beige;
+}
+
+#entertainment {
+    background-color: aqua;
+}
+
+#tecnology {
+    background-color: mediumblue;
+}
